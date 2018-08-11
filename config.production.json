@@ -1,0 +1,29 @@
+{
+  "url": "https://blog.napchart.com",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghost-856",
+      "password": "%v!0Yj]QYRVe=0]cpZDH",
+      "database": "ghost_prod"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/srv/ghost/content"
+  }
+}
